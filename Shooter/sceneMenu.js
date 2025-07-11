@@ -84,7 +84,7 @@ var sceneMenu = new Phaser.Class({
             .setScale(0.35)
             .on('pointerdown', () => {
                 if (musicState) snd_touch.play();  // Gunakan sound yang tersedia
-                window.location.href = '../home.html';
+                window.location.href = '../index.html';
         });
 
         // Event Handling

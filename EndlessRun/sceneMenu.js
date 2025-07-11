@@ -167,7 +167,7 @@ var sceneMenu = new Phaser.Class({
             .on('pointerdown', () => {
                 console.log('Back button clicked'); // Debugging
                 this.snd_touch.play(); // Gunakan this.snd_touch yang sudah didefinisikan
-                window.location.href = '../home.html';
+                window.location.href = '../index.html';
             });
         },
     update(){}

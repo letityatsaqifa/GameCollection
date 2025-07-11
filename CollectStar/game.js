@@ -154,7 +154,7 @@ function create() {
         .setScale(0.25)
         .on('pointerdown', () => {
             if (isSoundEnabled) jumpSound.play();
-            window.location.href = '../home.html';
+            window.location.href = '../index.html';
         });
 
 
